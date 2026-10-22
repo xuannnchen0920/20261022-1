@@ -1,0 +1,21 @@
+html, body {
+  /* 讓頁面寬度貼齊瀏覽器視窗。 */
+  width: 100%;
+  /* 讓頁面高度貼齊瀏覽器視窗。 */
+  height: 100%;
+  /* 移除瀏覽器預設外距。 */
+  margin: 0;
+  /* 移除瀏覽器預設內距。 */
+  padding: 0;
+  /* 避免畫布外側出現捲軸。 */
+  overflow: hidden;
+  /* 設定載入畫布前的頁面底色。 */
+  background: #f7f5ef;
+}
+
+canvas {
+  /* 移除畫布的行內基線空隙。 */
+  display: block;
+  /* 將觸控操作保留給畫布拖曳。 */
+  touch-action: none;
+}
